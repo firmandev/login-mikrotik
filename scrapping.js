@@ -8,8 +8,7 @@ const C           = require('./constants');
 async function login(){
   let launchOptions = { 
     headless: C.noShow,
-    executablePath:'/home/firman/workplace/login-mikrotik/node_modules/puppeteer/.local-chromium/linux-722234/chrome-linux/chrome',
-    args: ['--no-sandbox', '--disable-setuid-sandbox'] 
+    executablePath:'/usr/bin/chromium-browser' 
   };
   const browser = await PUPPETEER.launch(launchOptions);
   const page = await browser.newPage();
