@@ -5,6 +5,7 @@ only, but i promise in the future it will support many mikrotik.
 
 # This is how to use my script for login
 1. You need to install npm and node js.
+<br>
 https://nodejs.org/en/download/ <br>
 https://www.npmjs.com/get-npm
 
@@ -13,15 +14,15 @@ npm i puppeteer
 
 3. You need to change the constant.js
 if you are using wifi id, here is the setting.
-module.exports = {
-    username            : 'your pass',
-    password            : 'your password',
-    userElement         : '#username_member',
-    userElementPassword : '#password_member',
-    url                 : 'https://welcome2.wifi.id/login/',
-    loginElementButton  : '.button-lg',
-    loginAfterElement   : '.skinner-right',
-    noShow              : true
+<br>module.exports = {
+    <br>username            : 'your pass',
+    <br>password            : 'your password',
+    <br>userElement         : '#username_member',
+    <br>userElementPassword : '#password_member',
+    <br>url                 : 'https://welcome2.wifi.id/login/',
+    <br>loginElementButton  : '.button-lg',
+    <br>loginAfterElement   : '.skinner-right',
+    <br>noShow              : true<br>
 }
 
 
