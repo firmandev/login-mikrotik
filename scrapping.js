@@ -7,9 +7,7 @@ const C           = require('./constants');
 
 async function login(){
   let launchOptions = { 
-    headless: C.noShow,
-    executablePath:'/usr/bin/firefox',
-    args: ['--no-sandbox', '--disable-setuid-sandbox'] 
+    headless: C.noShow 
   };
   const browser = await PUPPETEER.launch(launchOptions);
   const page = await browser.newPage();
