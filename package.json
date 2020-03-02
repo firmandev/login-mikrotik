@@ -1,0 +1,23 @@
+{
+  "name": "scraper",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node scraper.js"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "puppeteer": "^2.1.1"
+  },
+  "main": "constants.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://tenbrothers@bitbucket.org/Alvin_Tjhie/playy-ocbc-scrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Alvin_Tjhie/playy-ocbc-scrapper#readme",
+  "description": ""
+}
