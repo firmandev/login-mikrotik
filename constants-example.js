@@ -4,5 +4,7 @@ module.exports = {
     userElement         : 'this is element id/class username in your mikrotik',
     userElementPassword : 'this is element id/class password in your mikrotik',
     url                 : 'this is url for mikrotik',
-    loginElementButton  : 'this is element id/class button in your mikrotik'
+    loginElementButton  : 'this is element id/class button in your mikrotik',
+    noShow              : true 
+    // it means true you will not see chromium launch and login it like human.
 }

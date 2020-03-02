@@ -5,7 +5,7 @@ only, but i promise in the future it will support many mikrotik.
 
 # This is how to use my script for login
 1. You need to install npm and node js.
-https://nodejs.org/en/download/
+https://nodejs.org/en/download/ <br>
 https://www.npmjs.com/get-npm
 
 2. Install puppeteer 
@@ -20,7 +20,8 @@ module.exports = {
     userElementPassword : '#password_member',
     url                 : 'https://welcome2.wifi.id/login/',
     loginElementButton  : '.button-lg',
-    loginAfterElement   : '.skinner-right'
+    loginAfterElement   : '.skinner-right',
+    noShow              : true
 }
 
 

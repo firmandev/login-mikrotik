@@ -6,7 +6,7 @@ const PUPPETEER   = require('puppeteer');
 const C           = require('./constants');
 
 async function login(){
-  let launchOptions = { headless: false };
+  let launchOptions = { headless: C.noShow };
   const browser = await PUPPETEER.launch(launchOptions);
   const page = await browser.newPage();
   await page.setViewport({width: 1366, height: 768});
