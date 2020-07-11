@@ -24,4 +24,9 @@ if you are using wifi id, here is the setting.
     <br>    noShow              : true<br>
 }
 
+4. run in terminal "node yourscript.js"
+
+
+Here is the scenario.
+Buy Raspberry PI then run CRON "node yourscript.js" or Manually run "node yourscript.js".
 
